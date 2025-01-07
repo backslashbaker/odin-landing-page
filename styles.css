@@ -45,8 +45,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    /* margin-inline: 150px; */
-    /* margin-top: 50px; */
     padding: 20px;
 }
 
@@ -84,7 +82,7 @@ body {
 }
 
 /* Information */
-.container {
+.information-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,13 +93,22 @@ body {
     max-width: 200px;
 }
 
-.title {
+.text {
+    font-size: 15px;
+    color: #1f2937;
+}
+
+.information-title {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
+    padding: 30px;
+    color: #1f2937;
 }
 
-.container img {
-    width: 100px;
-    height: 100px;
+.information-container img {
+    width: 200px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
 }
