@@ -9,11 +9,27 @@ body {
     text-align: center;
 }
 
+.navigation,
+.hero-section {
+    background-color: #1f2937;
+}
+
+/* Navigation */
 .navigation {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+.navigation h4 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navigation .right-links li {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .navigation ul {
@@ -24,13 +40,50 @@ body {
 
 }
 
+/* Hero Section */
 .hero-section {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
+    flex-direction: row;
+    gap: 20px;
+    /* margin-inline: 150px; */
+    /* margin-top: 50px; */
+    padding: 20px;
 }
 
+.hero-content {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-content button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    width: 150px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+/* Information */
 .container {
     display: flex;
     justify-content: center;
